@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Shopping Apps',
+      title: 'Fit Tracker Apps',
       theme: ThemeData(
         primarySwatch: Colors.blue,
         textTheme: Theme.of(context).textTheme.apply(
