@@ -51,6 +51,7 @@ class AuthController extends GetxController {
 
   void signInWithGoogle() async {
     try {
+      loadingSignUp.value = Loading.pending;
       final GoogleSignInAccount? googleUser = await GoogleSignIn().signIn();
       final GoogleSignInAuthentication? googleAuth =
           await googleUser?.authentication;
@@ -66,12 +67,13 @@ class AuthController extends GetxController {
         'Login Success',
         'Welcome back!',
       );
+      loadingSignUp.value = Loading.success;
     } on FirebaseAuthException catch (e) {
-      messageSignIn.value = e.message!;
-      loadingSignIn.value = Loading.failed;
+      messageSignUp.value = e.message!;
+      loadingSignUp.value = Loading.failed;
     } catch (error) {
-      messageSignIn.value = 'Oops! Something went wrong.';
-      loadingSignIn.value = Loading.failed;
+      messageSignUp.value = 'Oops! Something went wrong.';
+      loadingSignUp.value = Loading.failed;
     }
   }
 }
