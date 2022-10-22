@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "278861036135-ku9qo6sg2thu5qm7qfsvvtnnm5e9gilc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fit_tracker_apps",
+            "certificate_hash": "8ce20ed53355c7d7436d89f9495d1ed74ccff887"
+          }
+        },
+        {
           "client_id": "278861036135-hvi13j85v1hoce12k7qgsa33r9odsc98.apps.googleusercontent.com",
           "client_type": 3
         }

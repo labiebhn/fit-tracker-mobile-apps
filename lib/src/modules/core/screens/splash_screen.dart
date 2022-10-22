@@ -9,12 +9,13 @@ class SplashScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-          child: Center(
-        child: Text(
-          'Fit Tracker Apps',
-          style: Fonts.h4.merge(TextStyle(color: Palettes.text)),
+        child: Center(
+          child: Text(
+            'Fit Tracker Apps',
+            style: Fonts.h4.merge(TextStyle(color: Palettes.text)),
+          ),
         ),
-      )),
+      ),
     );
   }
 }
