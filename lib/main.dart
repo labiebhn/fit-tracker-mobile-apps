@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
               displayColor: Colors.black87,
             ),
       ),
-      initialRoute: Routes.LOGIN,
+      initialRoute: Routes.INITIAL,
       getPages: AppPages.pages,
     );
   }

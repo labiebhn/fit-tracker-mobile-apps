@@ -14,7 +14,10 @@ class LoginScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetX<AuthController>(builder: (controller) {
       return Scaffold(
-        body: SafeArea(
+        appBar: AppBar(
+          title: const Text('Login'),
+        ),
+        body: SizedBox(
           child: Container(
             width: double.infinity,
             color: Palettes.background,

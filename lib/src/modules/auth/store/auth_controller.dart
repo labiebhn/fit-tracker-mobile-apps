@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:fit_tracker_apps/src/routes/app_pages.dart';
 import 'package:fit_tracker_apps/src/utils/enum.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -21,7 +22,7 @@ class AuthController extends GetxController {
   RxString messageSignUp = ''.obs;
 
   @override
-  void onInit() async {
+  void onInit() {
     super.onInit();
     FirebaseAuth.instance.authStateChanges().listen((User? user) {});
   }
@@ -40,6 +41,7 @@ class AuthController extends GetxController {
         'Welcome back!',
       );
       loadingSignIn.value = Loading.success;
+      Get.offAndToNamed(Routes.DASHBOARD);
     } on FirebaseAuthException catch (e) {
       messageSignIn.value = e.message!;
       loadingSignIn.value = Loading.failed;
