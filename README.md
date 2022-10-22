@@ -27,6 +27,7 @@ Next, start an app to connect to. This can be either a Flutter application or a 
 flutter run
 ```
 
+
 ## Credential User
 
 **Email:**
@@ -40,3 +41,16 @@ buds@mail.local
 ```
 password
 ```
+
+
+## Task
+
+| No | Task Description                                                                            | Status             |
+|----|---------------------------------------------------------------------------------------------|--------------------|
+| 1  | SignIn/SignUp Firebase                                                                      | :white_check_mark: |
+| 2  | Enter the user profile in <br>profile settings (Name, gender, <br>date of birth and height) | :x:                |
+| 3  | Enter his/her weight and date (default today)                                               | :x:                |
+| 4  | Store it into Firestore                                                                     | :x:                |
+| 5  | View a list of all weight entries, sorted by most recent date                               | :x:                |
+| 6  | Add one feature that you think is necessary for the app                                     | :x:                |
+| 7  | Sign Out                                                                                    | :x:                |
