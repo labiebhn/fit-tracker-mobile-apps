@@ -54,3 +54,5 @@ password
 | 5  | View a list of all weight entries, sorted by most recent date                               | :x:                |
 | 6  | Add one feature that you think is necessary for the app                                     | :x:                |
 | 7  | Sign Out                                                                                    | :x:                |
+
+Note: It's my first time using Firestore with Flutter, then I can't complete this task with the given time. Thank you for giving me the opportunity to take this test. I learned a lot and motivated me to learn more about Flutter.
