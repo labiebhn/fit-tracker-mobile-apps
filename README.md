@@ -26,3 +26,17 @@ Next, start an app to connect to. This can be either a Flutter application or a 
 ```
 flutter run
 ```
+
+## Credential User
+
+**Email:**
+
+```
+buds@mail.local
+```
+
+**Password:**
+
+```
+password
+```
