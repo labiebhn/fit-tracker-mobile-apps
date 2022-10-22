@@ -1,16 +1,28 @@
-# fit_tracker_apps
+# Fit Tracker Mobile Apps
 
-A new Flutter project.
 
-## Getting Started
+## How to install
 
-This project is a starting point for a Flutter application.
+**Step 1:**
 
-A few resources to get you started if this is your first Flutter project:
+Clone this repo:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```
+git@github.com:labiebhn/fit-tracker-mobile-apps.git
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Step 2:**
+
+Go to project root and execute the following command in console to get the required dependencies: 
+
+```
+flutter pub get 
+```
+
+**Step 3:**
+
+Next, start an app to connect to. This can be either a Flutter application or a Dart command-line application. The command below specifies a Flutter app:
+
+```
+flutter run
+```
