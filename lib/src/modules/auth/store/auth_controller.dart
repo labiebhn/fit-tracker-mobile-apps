@@ -70,6 +70,7 @@ class AuthController extends GetxController {
         'Welcome back!',
       );
       loadingSignUp.value = Loading.success;
+      Get.offAndToNamed(Routes.DASHBOARD);
     } on FirebaseAuthException catch (e) {
       messageSignUp.value = e.message!;
       loadingSignUp.value = Loading.failed;
