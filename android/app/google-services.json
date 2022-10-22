@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "278861036135",
+    "project_id": "fit-tracker-85647",
+    "storage_bucket": "fit-tracker-85647.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278861036135:android:fdf381e5301e5b3c6732c2",
+        "android_client_info": {
+          "package_name": "com.example.fit_tracker_apps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "278861036135-ku9qo6sg2thu5qm7qfsvvtnnm5e9gilc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fit_tracker_apps",
+            "certificate_hash": "8ce20ed53355c7d7436d89f9495d1ed74ccff887"
+          }
+        },
+        {
+          "client_id": "278861036135-hvi13j85v1hoce12k7qgsa33r9odsc98.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIowxur5hxmX4b5Pl7fK3EhQfcsX9DQp8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "278861036135-hvi13j85v1hoce12k7qgsa33r9odsc98.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "278861036135-ui6e123rfbrpd76n9o0tp8pls6bvpd19.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.fitTrackerApps"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
